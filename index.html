@@ -1,8 +1,121 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
-  <body>
-    <h1> HELLO WORLD! </h1>
-  </body>
+<title>GAC AE#3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:955px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav {
+				width:955px; /*Le establecemos un ancho*/
+				margin:0 auto; /*Centramos automaticamente*/
+			}
+
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 31.5px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:300px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>Hareth's Opinions</b></h1>
+  <p>Welcome to the website of Hareth Peraza</p>
+  <img src="Banner.jpg">
+  <div id="header">
+			<nav> <!-- Aqui estamos iniciando la nueva etiqueta nav -->
+				<ul class="nav">
+					<li><a href="">Home</a></li>
+					<li><a href="">About me</a></li>
+					<li><a href="">Podcasts</a></li>
+					<li><a href="">Opinions</a></li>
+					<li><a href="">Wrestling</a></li>
+					<li><a href="">Examples</a></li>
+					<li><a href="">¿What Do Teens Think?</a></li>
+				</ul>
+			</nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
+		</div>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<h2 align="center" face="Impact" size="300">Welcome!</h2>
+<h5 align="center">In this webpage you'll see the content created by Hareth Peraza about different topics. We hope you can enjoy it.</h5>
+  <!-- Blog entry -->
+  <div class="w3-card-1 w3-margin w3-white">
+	<iframe width="350" height="350" src="https://www.youtube.com/embed/eVPdag3AZ4A" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+	<img src="MY.jpg" height="350" width="624">
+	<img src="Collage.jpg" width="350" height="350">
+	<img src="LG1.png" width="230" height="230">
+	<img src="Logo 123.png" width="230" height="230">
+	<img src="Logo.png" width="430" height="250" align="center">
+	<img src="Logo con borde.png" width="230" height="230">
+	<img src="Logo EJEMPLOS.png" width="230" height="230">
+  </div>
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom" OnClick="window.location.href='https://www.youtube.com/channel/UCDBK7UQWbSV1-kAMdO7VaXA'">YouTube</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom" OnClick="window.location.href='https://twitter.com/AJ_Hareth2402'">Twitter</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom" OnClick="window.location.href='https://www.instagram.com/hareth_ops/?hl=es-la'">Instagram</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom" OnClick="window.location.href='https://www.facebook.com/LasOpinionesDeHareth/'">Facebook</button>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
 </html>
